@@ -1,5 +1,5 @@
 # Install on ubuntu
-pip:
+# pip:
   临时使用：
     pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
   永久更改：
