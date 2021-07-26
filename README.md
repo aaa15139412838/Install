@@ -22,7 +22,7 @@
   // 配置环境变量
   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.4/lib64
   export PATH=$PATH:/usr/local/cuda-11.4/bin
-  export CUDA_HOME=$CUDA_HOME:/usr/local/cuda-11.4
+  export CUDA_HOME=/usr/local/cuda-11.4
   source ~/.bashrc
 
  # 显卡驱动:
