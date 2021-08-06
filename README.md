@@ -54,3 +54,7 @@
 # samba:
   sudo apt-get install samba samba-common
   
+#笔记
+  编ransac_voting的时候，出现了/usr/include/c++/7/bits/basic_string.tcc:1067:16:error:cannot call member function 'void std::basic_string<_CharT,_Traits,_Alloc>::_Rep::_M_set_sharable()[with_CharT=char32_t; .............without object
+  解决：/usr/include/c++/7/bits/basic_string.tcc里面.  __p->_M_set_sharable();  ----->  (*__p)._M_set_sharable();
+  
