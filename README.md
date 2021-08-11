@@ -28,7 +28,8 @@
  # 显卡驱动:
   Disable nouveau：
     sudo vim /etc/modprobe.d/blacklist.conf or sudo gedit /etc/modprobe.d/blacklist.conf
-    跳到最后一行添加 blacklist nouveau
+    跳到最后一行添加 blacklist nouveau 
+    options nouveau modeset=0
     sudo update-initramfs -u
     重启 reboot
   删除已有驱动：
