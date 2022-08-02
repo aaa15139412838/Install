@@ -5,6 +5,8 @@
   永久更改：
     pip install pip -U
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+  // remove tsinghua source:
+    pip config unset global.index-url
   
 # conda:
   conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
